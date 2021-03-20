@@ -1,0 +1,54 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/character" />
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/progress"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="炼气期第一层"
+        android:textColor="#F9F900"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:layout_marginTop="60dp"/>
+
+    <ImageButton
+        android:id="@+id/xiulian"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:background="@drawable/xiulian"
+        android:text="修炼"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="60dp"/>
+
+    <ImageButton
+        android:id="@+id/tupo"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:background="@drawable/tupo"
+        android:text="突破"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="220dp"/>
+
+</RelativeLayout >
